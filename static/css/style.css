@@ -1,0 +1,104 @@
+body {
+  margin: 0px;
+}
+#form-format form {
+  justify-items: center;
+  align-self: center;
+  align-items: center;
+  margin: 0px;
+  width: 60vw;
+  
+}
+form {
+  margin: 20px;
+  padding: 20px;
+}
+
+label {
+  position: absolute;
+  padding: 10px;
+  color: black;
+}
+input {
+  position: relative;
+  left: 0px;
+  top: -8px;
+  margin-left: 100px;
+  margin-top: 20px;
+  border: solid 1px;
+  border-radius: 10px;
+}
+#rdo {
+  position: relative;
+  right: 200px;
+  color: red;
+  background-color: red;
+}
+#lbl {
+  padding: 10px;
+  margin-right: 20px;
+}
+#btn {
+  transition: 0.5 s;
+  border: solid 1px white;
+  color: red;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 10px;
+}
+
+#btn:hover {
+  border: solid 1px tomato;
+  background-color: tomato;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: large;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+#dis {
+  display: none;
+}
+#radios {
+  position: relative;
+  right: 80px;
+}
+/*
+#radios input:hover {
+  background-color: brown;
+  color: red;
+}
+  */
+#reason {
+  margin: 0px;
+  position: relative;
+  left: 70px;
+  top: 0vh;
+  border: solid 1px;
+  border-radius: 0px;
+  width: 30vw;
+  height: 20vw;
+  font-display: inherit;
+}
+#reason-txt {
+  position: relative;
+  left: 210px;
+}
+
+#submit {
+  background-color: red;
+  width: 10vw;
+  height: 40px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: large;
+  font-style: italic;
+  position: relative;
+  left: 100px;
+  box-shadow: 3px 3px #6b6868;
+  color: white;
+}
+#submit:hover {
+  font-style: normal;
+}

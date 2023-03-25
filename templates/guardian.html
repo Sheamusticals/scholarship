@@ -1,0 +1,12 @@
+{% extends 'base.html'%}
+{% block content %}
+
+<form method="post">
+    <h1>Guardian Information</h1>
+    <hr class="mt-0 mb-4">
+    {% csrf_token %}
+    {{form.as_p}}
+    <button type=""submit class="btn btn-primary">SAVE</button>
+    <a href="school"class="btn btn-success">CONTINUE</a>
+</form>
+{% endblock content %}
