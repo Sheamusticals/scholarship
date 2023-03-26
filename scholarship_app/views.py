@@ -1,5 +1,7 @@
 from django.shortcuts import render,redirect
 from .forms import Personal_Form,Guardian_Form,School_Form
+from django.http import HttpResponse
+
 
 
 
@@ -25,9 +27,11 @@ def school(request):
     
         if form.is_valid():
             form.save()
+        return redirect(success)
          
     return render(request,'school.html',{'form':form})   
 
      
 
-    
+def success(request):
+    return HttpResponse("Form submitted successfully,you will hear from us soon")
